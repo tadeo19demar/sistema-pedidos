@@ -130,9 +130,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         </form>
         
         <div class="demo-credentials">
-            <strong>Credenciales de demo:</strong><br>
-            Usuario: admin<br>
-            Contraseña: admin123
+            <strong>Ingrese Credenciales</strong><br>
+            Usuario:<br>
+            Contraseña:
         </div>
         
         <div class="back-link">

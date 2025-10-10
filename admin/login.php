@@ -114,7 +114,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <?php echo $error; ?>
             </div>
         <?php endif; ?>
-        
+        <div class="demo-credentials">
+            <img src="../img/uspas.png" alt="Problemas de imagen"width="300" height="300">
+            <strong>Ingrese Credenciales</strong><br>
+        </div>
         <form method="POST">
             <div class="form-group">
                 <label for="username">Usuario</label>
@@ -128,13 +131,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             
             <button type="submit" class="btn-login">Iniciar Sesión</button>
         </form>
-        
-        <div class="demo-credentials">
-            <strong>Ingrese Credenciales</strong><br>
-            Usuario:<br>
-            Contraseña:
-        </div>
-        
+
         <div class="back-link">
             <a href="../index.php">← Volver al sitio principal</a>
         </div>

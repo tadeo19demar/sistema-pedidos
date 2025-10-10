@@ -123,5 +123,6 @@ foreach ($_SESSION['carrito'] as $item) {
     </main>
     
     <script src="js/script.js"></script>
+     <?php include 'includes/footer.php'; ?>
 </body>
 </html>
